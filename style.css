@@ -1,0 +1,168 @@
+body{
+    margin: 0px;
+    
+}
+
+.work{
+    font-family:'Parisienne', cursive;
+    color:#3DB2FF;
+}
+.home{
+    color:#6E85B2;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: white;
+    padding:5px;
+}
+.home:hover{
+    color:#3DB2FF;
+    text-decoration:underline;
+}
+.register{
+    width: 90px;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 20px;
+    border: darkgrey;
+    background: #3DB2FF;
+    color:white;
+    font-weight: bold;
+}
+.dropdown:hover{
+    color:#3DB2FF;
+}
+#Kelas{
+    color:#3DB2FF;
+}
+.slider{
+    margin-top: 20px;
+    width: 1500px;
+    height:500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slides{
+    width: 500%;
+    display:flex; 
+}
+
+.slides input{
+    display: none;
+}
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+.slide img{
+    width: 1200px;
+}
+.navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: 460px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid #3DB2FF;
+    padding:5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 10px;
+}
+.manual-btn:hover{
+    background:#3DB2FF ;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+.daftar{
+    position:absolute;
+    background:#548CFF;
+    width: 1200px;
+    height: 500px;
+    opacity: 0.6;
+    color: chartreuse;
+    overflow: hidden;
+    transition: 2s;
+    margin-left: 0px;
+    justify-content: center;
+}
+.promo{
+    margin-left: 250px;
+    margin-top: 100px;
+    width: 700px;
+    color:white;
+    
+}
+.profesi{
+    margin-left: 150px;
+}
+h3{
+    margin-left: 200px;
+}
+.pendaftaran{
+    position:absolute;
+    margin-top: 280px;
+    margin-left: 540px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background: #35589A;
+    color:white;
+    justify-content: center;
+    transition: 2s;
+}
+/*untuk kelas navigasi*/
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+    margin-left: 200px;
+}
+.navigation-auto div{
+    border: 2px solid #3DB2FF;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 10px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background:#3DB2FF ;
+}
+#radio2:checked~ .navigation-auto .auto-btn2{
+    background:#3DB2FF ;
+}
+
+.col-4{
+    margin-top: 50px;
+    color:  #3DB2FF;
+    padding:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tabel{
+    margin-left: 5px;
+}
+.lorem{
+    width: 200px;
+    color:#6B7AA1;
+}
+
+.col1{
+    font-size: 50;
+    font-weight: bold;
+    width: 200px;
+    color: #3DB2FF;
+}
+
+
